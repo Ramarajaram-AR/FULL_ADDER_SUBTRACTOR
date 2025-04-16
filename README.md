@@ -1,3 +1,5 @@
+# REG.NO:212224110035
+# DATE: 16-04-25
 # FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
@@ -63,7 +65,7 @@ endmodule;
 
 FULL SUBTRACTOR
 
-module fs(df, bo, a, b, bin);
+module exp4_1(df,bo,a,b,bin);
 input a,b,bin;
 output df,bo;
 wire w1,w2,w3;
@@ -72,15 +74,19 @@ assign w2=(~a&b);
 assign w3=(~w1&bin);
 assign df=w1^bin;
 assign bo=w2|w3;
-endmodule;
+endmodule
 
 ```
 
 **RTL Schematic**
 ![exp4 sum](https://github.com/user-attachments/assets/a0228e81-0d64-48a3-94a6-7d22b4cdeb40)
 
+![Screenshot (203)](https://github.com/user-attachments/assets/99b6dfe0-1ec4-4395-994c-2434e46b5768)
+
 **Output Timing Waveform**
 ![exp4 wave](https://github.com/user-attachments/assets/5bd65aa9-cd9f-4a4c-907e-b1e03f21ed2b)
+
+![image](https://github.com/user-attachments/assets/ea48f6f4-ffbf-4167-aeee-9213a86de169)
 
 **Result:**
 
