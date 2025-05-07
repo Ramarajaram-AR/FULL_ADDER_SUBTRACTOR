@@ -1,5 +1,5 @@
-# REG.NO:212224110035
-# DATE: 16-04-25
+# REG.NO:212224050035
+# DATE: 07-05-25
 # FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
