@@ -63,7 +63,8 @@ assign w2=b&c;
 assign w3=c&a;
 assign carry=w1|w2|w3;
 endmodule;
-
+```
+```
 FULL SUBTRACTOR
 
 module exp4_1(df,bo,a,b,bin);
